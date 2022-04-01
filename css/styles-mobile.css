@@ -18,6 +18,8 @@ html {
     font-family: 'DM Sans', sans-serif;
 }
 
+/**HEADER**/
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -63,6 +65,22 @@ header {
     flex-direction: column;
     justify-content: space-around;
     position: absolute;
+    margin-top: 60px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    text-align: center;
+    background-color: var(--cuaternary);
+
+}
+
+.header-mobile__nav--ul-visible {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 60px;
     top: 0;
     left: 0;
     width: 100%;
@@ -84,4 +102,9 @@ header {
     color: var(--cuaternary);
     background-color: var(--primary);
     
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 768px) {
+
 }
