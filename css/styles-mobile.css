@@ -26,7 +26,7 @@ html {
 
 header {
     width: 100%;
-    height: 50px;
+    height: 60px;
     background-color: var(--cuaternary);
 }
 
@@ -36,21 +36,26 @@ header {
 }
 
 .header-mobile__container {
-    margin: 0 auto;
+    margin: auto 0;
     padding: 0 10px;
 }
 
 .header-mobile__nav {
     display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */
-
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
 }
 
 .header-mobile__nav--logo {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: var(--secundary);
+}
+
+.header-mobile__nav--icon-menu {
+    width: 40px;
+    cursor: pointer;
 }
 
 .header-mobile__nav--ul {
