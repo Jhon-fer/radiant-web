@@ -22,6 +22,17 @@ html {
     --color-black: #000;
 }
 
+/* GENERAL */
+
+.main {
+    z-index: 1;
+}
+
+.main__container {
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
 /* HEADER */
 
 .header-desktop {
@@ -61,12 +72,14 @@ html {
     width: 100%;
     height: 90vh;
     transition: all 1s;
+    background-color: var(--color-black);
 }
 
 .header-mobile__nav-menu-visible {
     position: absolute;
     top: 1000px;
     transition: all 1s;
+    z-index: 10;
 }
 
 .header-mobile__nav-menu--link {
@@ -89,12 +102,98 @@ html {
     background-color: #BEFF16;
 }
 
+/* SECTION INTRODUCE */
+
+.main__introduce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.main__introduce--title-h4 {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-secundary);
+}
+
+.main__introduce--title-h2 {
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.main_introduce--title-h3 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-secundary);
+}
+
+.main__introduce--button-wsp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border: 1px solid var(--color-secundary);
+    cursor: pointer;
+    transition: all .5s;
+    background-color: transparent;
+}
+
+.main__introduce--button-wsp:hover {
+    transition: all .5s;
+    background-color: var(--color-hover);
+}
+
+.main__introduce--button-wsp-icon {
+    width: 25px;
+    padding-right: 5px;
+}
+
+.main__introduce--button-wsp-text {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--color-primary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 /* KEYFRAMES */
+
 @keyframes transitionDropdown {
     0% {
         opacity: 0;
