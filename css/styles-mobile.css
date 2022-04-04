@@ -22,6 +22,8 @@ html {
     --color-black: #000;
 }
 
+/* HEADER */
+
 .header-desktop {
     display: none;
 }

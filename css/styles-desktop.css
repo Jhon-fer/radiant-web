@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+}
+
+:root {
+    --color-primary: #fff;
+    --color-secundary: #BEFF16;
+    --color-text: #757675;
+    --color-background: #191919;
+    --color-hover: #BEFF1638;
+    --color-black: #000;
+}
+
+/* HEADER */
+
+.header-mobile {
+    display: none;
+}
+
+.header-desktop {
+    display: block;
+    height: 80px;
+}
+
+.header-desktop__container {
+    width: 1025px;
+    height: 80px;
+    margin: 0 auto;
+}
