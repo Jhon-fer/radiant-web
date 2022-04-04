@@ -1,0 +1,15 @@
+.header-mobile {
+    display: none;
+}
+
+.header-desktop__container {
+    display: flex;
+    justify-content: center;
+    width: 768px;
+    margin: 0 auto;
+}
+
+.header-desktop {
+    background-color: red;
+    height: 80px;
+}

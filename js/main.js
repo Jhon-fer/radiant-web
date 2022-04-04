@@ -4,4 +4,3 @@ const navMenu = document.querySelector(".header-mobile__nav-menu");
 navToggle.addEventListener("click", () => {
     navMenu.classList.toggle("header-mobile__nav-menu-visible");
 });
-

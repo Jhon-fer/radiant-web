@@ -5,15 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="diseño web, desarrollo web, agencia web">
-    <link rel="stylesheet" href="./css/styles-mobile.css">
-    <link rel="stylesheet" href="./css/styles-desktop.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <script defer src="./js/main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles-mobile.css">
+    <link rel="stylesheet" href="./css/styles-tablet.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="./css/styles-desktop.css" media="(min-width: 1025px)">
     <title>Radiant Web</title>
+    <script defer src="./js/main.js"></script>
+
 </head>
 <body>
-    <!-- Menu small screen -->
+    <!-- Menu mobile -->
     <header class="header-mobile">
         <div class="header-mobile__container">
             <nav class="header-mobile__nav">
@@ -25,6 +27,22 @@
                     <li class="header-mobile__nav-menu--link"><a href="#">Portafolio</a></li>
                     <li class="header-mobile__nav-menu--link"><a href="#">Servicios</a></li>
                     <li class="header-mobile__nav-menu--link"><a href="#">Contáctame</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Menu tablet and desktop -->
+    <header class="header-desktop">
+        <div class="header-desktop__container">
+            <nav class="header-desktop__nav">
+                <a href="#" class="header-desktop__nav--logo">Radiant Web</a>
+                <img src="./images/icon-menu.svg" alt="icon-menu" class="header-desktop__nav--toggle">
+                <ul class="header-desktop__nav-menu header-desktop__nav-menu-visible">
+                    <li class="header-desktop__nav-menu--link"><a href="#">Inicio</a></li>
+                    <li class="header-desktop__nav-menu--link"><a href="#">Nosotros</a></li>
+                    <li class="header-desktop__nav-menu--link"><a href="#">Portafolio</a></li>
+                    <li class="header-desktop__nav-menu--link"><a href="#">Servicios</a></li>
+                    <li class="header-desktop__nav-menu--link"><a href="#">Contáctame</a></li>
                 </ul>
             </nav>
         </div>
