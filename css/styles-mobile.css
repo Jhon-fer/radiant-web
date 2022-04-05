@@ -111,6 +111,7 @@ html {
     align-items: center;
     width: 100%;
     height: 100vh;
+    padding: 100px 0;
     text-align: center;
 }
 
@@ -121,7 +122,7 @@ html {
 }
 
 .main__introduce--title-h4 {
-    margin-top: 200px;
+    margin-top: 75px;
     margin-bottom: 50px;
     font-size: 2rem;
     font-weight: 600;
@@ -129,7 +130,7 @@ html {
 }
 
 .main__introduce--title-h2 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 600;
     color: var(--color-primary);
 }
@@ -183,6 +184,8 @@ html {
     align-items: center;
     margin: 0 auto;
     height: 100vh;
+    padding: 100px 0;
+    overflow-y: hidden;
 }
 .main__about--title {
     margin-bottom: 50px;
@@ -192,6 +195,7 @@ html {
 }
 
 .main__about--text {
+    margin-bottom: 50px;
     font-size: 1.4rem;
     font-weight: 400;
     color: var(--color-text);
@@ -229,6 +233,7 @@ html {
 .main__portfolio {
     margin: 0 auto;
     height: auto;
+    padding: 100px 0;
 }
 
 .main__portfolio--title {
@@ -268,7 +273,7 @@ html {
 .main__portfolio-galery {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     gap: 10px;
     flex-wrap: wrap;
     align-items: center;
@@ -347,6 +352,7 @@ html {
 
 .main__services {
     width: 100%;
+    padding: 100px 0;
     overflow: hidden;
 }
 
@@ -402,6 +408,9 @@ html {
 .main__contact {
     width: 100%;
     height: 100vh;
+    padding: 80px 0;
+    margin-bottom: 100px;
+    overflow-y: hidden;
 }
 
 .main__contact--title {
@@ -424,6 +433,7 @@ html {
     padding: 10px 5px;
     border: 1px solid var(--color-text);
     outline: none;
+    font-family: poppins;
     background-color: transparent;
 }
 
@@ -434,6 +444,7 @@ html {
     font-size: 1.5rem;
     font-weight: 600;
     border: 1px solid var(--color-secundary);
+    cursor: pointer;
     color: var(--color-primary);
     background-color: transparent;
 }
@@ -446,23 +457,6 @@ html {
     padding: 70px 0;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* KEYFRAMES */
 

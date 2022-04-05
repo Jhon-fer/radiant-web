@@ -107,7 +107,7 @@ html {
 }
 
 .main__introduce-slider--img1 {
-    width: 100%;
+    width: 80%;
 }
 
 .main__introduce-container {
@@ -133,9 +133,39 @@ html {
 
 /* SECTION ABOUT */
 
+.main__about-icons {
+    margin-top: -150px;
+}
+
+.main__about-icons-figure {
+    padding: 20px 75px;
+}
+
+.main__about-icons--title {
+    font-size: 1.5rem;
+}
+
+/* SECTION PORTFOLIO */
 
 
 
+/* SECTION SERVICES */
+
+.main__services-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main__services-card--item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    padding: 30px;
+}
+
+/* SECTION CONTACT */
 
 
 
