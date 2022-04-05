@@ -4,13 +4,12 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 html {
     font-size: 62.5%;
     font-family: 'Poppins', sans-serif;
-    background-color: #000;
+    background-color: var(--color-black);
 }
 
 :root {
@@ -20,6 +19,14 @@ html {
     --color-background: #191919;
     --color-hover: #BEFF1638;
     --color-black: #000;
+}
+
+/* GENERAL */
+
+.main__container {
+    padding: 0 30px;
+    margin: 0 auto;
+    width: 768px;
 }
 
 /* HEADER */
@@ -82,3 +89,69 @@ html {
 .header-desktop__nav-menu--link a:active {
     color: var(--color-secundary);
 }
+
+/* SECTION INTRODUCE */
+
+.main__introduce {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+.main__introduce-slider {
+    display: block;
+    width: 40%;
+    padding-bottom: 150px;
+}
+
+.main__introduce-slider--img1 {
+    width: 100%;
+}
+
+.main__introduce-container {
+    width: 60%;
+}
+
+.main__introduce--title {
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+.main__introduce--title-h4 {
+    margin: 0;
+}
+
+.main__introduce--title-h2 {
+    font-size: 4rem;
+}
+
+.main__introduce--button-wsp-text {
+    font-size: 1.4rem;
+}
+
+/* SECTION ABOUT */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
